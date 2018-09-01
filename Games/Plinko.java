@@ -95,7 +95,7 @@ static Scanner in = new Scanner(System.in);
         System.out.println( "What is 3!");
         answer = Integer.parseInt(in.nextLine());
         if (answer ==  6){System.out.println("Congratulations,you've earned yourself a chip"); chips ++;}
-        else{System.out.println("Mr.Kim would be dissapointed");}
+        else{System.out.println("Your math prof would be dissapointed");}
         //return the amount of chips they earned
         return chips;
         
